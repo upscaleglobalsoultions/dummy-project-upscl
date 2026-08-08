@@ -19,7 +19,9 @@
   <body>
     <nav>
       <div class="nav-left">
-        <img src="./data/png/logo.png" alt="logo" />
+        <a href="./index.html">
+          <img src="./data/png/logo.png" alt="Upscale Global Solutions Logo" />
+        </a>
       </div>
       <!-- Hamburger -->
       <div class="menu-toggle">
@@ -29,19 +31,31 @@
       </div>
       <div class="nav-right">
         <ul class="nav-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./index.html#about">About Us</a></li>
           <li class="dropdown">
             <a href="#">Services</a>
             <ul class="dropdown-menu">
-              <li><a href="#">Data Solutions</a></li>
-              <li><a href="#">Lead Generation</a></li>
-              <li><a href="#">Virtual Assistance</a></li>
-              <li><a href="#">Recruitment Process Outsourcing</a></li>
+              <li>
+                <a href="./data/pages/data-solutions.html">Data Solutions</a>
+              </li>
+              <li>
+                <a href="./data/pages/lead-generation.html">Lead Generation</a>
+              </li>
+              <li>
+                <a href="./data/pages/virtual-assistance.html"
+                  >Virtual Assistance</a
+                >
+              </li>
+              <li>
+                <a href="./data/pages/recruitment-process-outsourcing.html"
+                  >Recruitment Process Outsourcing</a
+                >
+              </li>
             </ul>
           </li>
           <li><a href="./data/pages/industries.html">Industries</a></li>
-          <li><a href="#">Blogs</a></li>
+          <li><a href="./data/pages/blogs.html">Blogs</a></li>
           <li><a href="./data/pages/contact-us.html">Contact Us</a></li>
         </ul>
       </div>
@@ -60,8 +74,8 @@
         </p>
 
         <div class="home-buttons">
-          <a href="#" class="btn-primary">Our Services</a>
-          <a href="#" class="btn-secondary">About Us</a>
+          <a href="#services" class="btn-primary">Our Services</a>
+          <a href="#about" class="btn-secondary">About Us</a>
         </div>
       </div>
 
@@ -69,7 +83,7 @@
         <img src="./data/png/home-background.png.jpg" alt="Business Growth" />
       </div> -->
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="section-title">
         <span>ABOUT US</span>
         <h2>Helping Businesses Grow Smarter Every Day</h2>
@@ -116,56 +130,67 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="section-title">
         <span>OUR SERVICES</span>
         <h2>Solutions Designed for Modern Businesses</h2>
       </div>
 
       <div class="service-grid">
-        <div class="service-card">
-          <i class="fas fa-database"></i>
+        <a href="./data/pages/data-solutions.html" class="service-link">
+          <div class="service-card">
+            <i class="fas fa-database"></i>
 
-          <h3>Data Solutions</h3>
+            <h3>Data Solutions</h3>
 
-          <p>
-            Accurate data processing, management, cleansing, enrichment, and
-            analysis for informed decision-making.
-          </p>
-        </div>
+            <p>
+              Accurate data processing, management, cleansing, enrichment, and
+              analysis for informed decision-making.
+            </p>
+          </div>
+        </a>
 
-        <div class="service-card">
-          <i class="fas fa-users"></i>
+        <a href="./data/pages/lead-generation.html" class="service-link">
+          <div class="service-card">
+            <i class="fas fa-users"></i>
 
-          <h3>Lead Generation</h3>
+            <h3>Lead Generation</h3>
 
-          <p>
-            Identify qualified prospects and build high-quality sales pipelines
-            using targeted research strategies.
-          </p>
-        </div>
+            <p>
+              Identify qualified prospects and build high-quality sales
+              pipelines using targeted research strategies.
+            </p>
+          </div>
+        </a>
 
-        <div class="service-card">
-          <i class="fas fa-headset"></i>
+        <a href="./data/pages/virtual-assistance.html" class="service-link">
+          <div class="service-card">
+            <i class="fas fa-headset"></i>
 
-          <h3>Virtual Assistance</h3>
+            <h3>Virtual Assistance</h3>
 
-          <p>
-            Professional remote support for administrative, scheduling,
-            documentation, and customer operations.
-          </p>
-        </div>
+            <p>
+              Professional remote support for administrative, scheduling,
+              documentation, and customer operations.
+            </p>
+          </div>
+        </a>
 
-        <div class="service-card">
-          <i class="fas fa-user-tie"></i>
+        <a
+          href="./data/pages/recruitment-process-outsourcing.html"
+          class="service-link"
+        >
+          <div class="service-card">
+            <i class="fas fa-user-tie"></i>
 
-          <h3>Recruitment Process Outsourcing</h3>
+            <h3>Recruitment Process Outsourcing</h3>
 
-          <p>
-            End-to-end hiring support including sourcing, screening, interview
-            coordination, and onboarding.
-          </p>
-        </div>
+            <p>
+              End-to-end hiring support including sourcing, screening, interview
+              coordination, and onboarding.
+            </p>
+          </div>
+        </a>
       </div>
     </section>
     <section class="why-us">
@@ -213,7 +238,7 @@
         </div>
       </div>
     </section>
-    <section class="industries">
+    <section class="industries" id="industries">
       <div class="section-title">
         <span>INDUSTRIES</span>
 
@@ -237,18 +262,22 @@
         innovative, and scalable business services tailored to your needs.
       </p>
 
-      <a href="#" class="btn-primary"> Get Started </a>
+      <a href="./data/pages/contact-us.html" class="btn-primary">
+        Get Started
+      </a>
     </section>
     <footer>
       <!-- Top Section -->
       <div class="footer-top">
         <!-- Column 1 -->
         <div class="footer-column company-info">
-          <img
-            src="./data/png/logo.png"
-            alt="Upscale Global Solutions Logo"
-            class="footer-logo"
-          />
+          <a href="./index.html">
+            <img
+              src="./data/png/logo.png"
+              alt="Upscale Global Solutions Logo"
+              class="footer-logo"
+            />
+          </a>
 
           <div class="contact-info">
             <p>
@@ -279,10 +308,10 @@
           <h3>Quick Links</h3>
 
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Industries</a></li>
-            <li><a href="#">Blogs</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#about">About Us</a></li>
+            <li><a href="./data/pages/industries.html">Industries</a></li>
+            <li><a href="./data/pages/blogs.html">Blogs</a></li>
             <li><a href="./data/pages/contact-us.html">Contact Us</a></li>
           </ul>
         </div>
@@ -292,10 +321,22 @@
           <h3>Services</h3>
 
           <ul>
-            <li><a href="#">Data Solutions</a></li>
-            <li><a href="#">Lead Generation</a></li>
-            <li><a href="#">Virtual Assistance</a></li>
-            <li><a href="#">Recruitment Process Outsourcing</a></li>
+            <li>
+              <a href="./data/pages/data-solutions.html">Data Solutions</a>
+            </li>
+            <li>
+              <a href="./data/pages/lead-generation.html">Lead Generation</a>
+            </li>
+            <li>
+              <a href="./data/pages/virtual-assistance.html"
+                >Virtual Assistance</a
+              >
+            </li>
+            <li>
+              <a href="./data/pages/recruitment-process-outsourcing.html"
+                >Recruitment Process Outsourcing</a
+              >
+            </li>
           </ul>
         </div>
       </div>
