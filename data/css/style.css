@@ -112,7 +112,7 @@ body {
 
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
-    url("../png/home-background.png.jpg");
+    url("../png/home-background.png");
 
   background-size: cover;
   background-position: center;
@@ -126,7 +126,7 @@ body {
 }
 
 .home-content h1 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1.2;
   color: #111827;
   margin-bottom: 20px;
@@ -137,7 +137,7 @@ body {
 }
 
 .home-content p {
-  font-size: 18px;
+  font-size: 15px;
   color: #6b7280;
   line-height: 1.8;
   margin-bottom: 35px;
@@ -658,7 +658,7 @@ footer {
   color: white;
   text-align: center;
   border-radius: 25px;
-  padding: 80px 40px;
+  padding: 20px 40px;
 }
 
 .cta h2 {
@@ -1831,7 +1831,7 @@ BLOG DETAIL SPACING BEFORE FOOTER
 
   .contact-form,
   .contact-card {
-    padding: 25px 20px;
+    padding: 25px 15px;
     border-radius: 20px;
   }
 
