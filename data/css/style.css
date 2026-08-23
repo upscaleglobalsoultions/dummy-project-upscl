@@ -112,7 +112,7 @@ body {
 
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
-    url("../png/home-background.png.jpg");
+    url("../png/home-background.png");
 
   background-size: cover;
   background-position: center;
@@ -126,7 +126,7 @@ body {
 }
 
 .home-content h1 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1.2;
   color: #111827;
   margin-bottom: 20px;
@@ -137,7 +137,7 @@ body {
 }
 
 .home-content p {
-  font-size: 18px;
+  font-size: 15px;
   color: #6b7280;
   line-height: 1.8;
   margin-bottom: 35px;
@@ -403,7 +403,7 @@ footer {
 .page-banner {
   width: 92%;
   margin: 50px auto 0;
-  padding: 80px 60px;
+  padding: 40px 60px;
   text-align: center;
 
   background: linear-gradient(135deg, #2563eb, #1e40af);
@@ -589,7 +589,7 @@ footer {
 
 .why-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 25px;
 }
 
@@ -658,7 +658,7 @@ footer {
   color: white;
   text-align: center;
   border-radius: 25px;
-  padding: 80px 40px;
+  padding: 20px 40px;
 }
 
 .cta h2 {
@@ -947,6 +947,7 @@ footer {
 
 .industry-card ul {
   list-style: none;
+  margin-top: 15px;
 }
 
 .industry-card ul li {
@@ -1006,7 +1007,8 @@ html {
 
 .service-about,
 .service-features,
-.data-cleansing {
+.data-cleansing,
+.why-data {
   width: 92%;
   margin: 80px auto;
 }
@@ -1086,7 +1088,7 @@ html {
 
 .service-content {
   max-width: 1000px;
-  margin: 0 auto 50px;
+  margin: -50px auto 50px;
   text-align: center;
 }
 
@@ -1094,7 +1096,7 @@ html {
   color: #6b7280;
   font-size: 17px;
   line-height: 1.9;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* =====================================
@@ -1831,7 +1833,7 @@ BLOG DETAIL SPACING BEFORE FOOTER
 
   .contact-form,
   .contact-card {
-    padding: 25px 20px;
+    padding: 25px 15px;
     border-radius: 20px;
   }
 
