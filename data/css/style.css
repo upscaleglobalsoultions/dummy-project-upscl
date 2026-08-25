@@ -1595,6 +1595,499 @@ BLOG DETAIL SPACING BEFORE FOOTER
   margin-top: 70px;
 }
 
+/* ==========================================================
+   ABOUT US PAGE
+========================================================== */
+
+/* ==========================
+   ABOUT PAGE BANNER
+========================== */
+
+.about-page-banner {
+  width: 92%;
+  margin: 50px auto 0;
+  padding: 80px 60px;
+
+  text-align: center;
+
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+
+  border-radius: 25px;
+
+  color: white;
+}
+
+.about-page-banner-content {
+  max-width: 950px;
+  margin: auto;
+}
+
+.about-page-banner span {
+  display: inline-block;
+
+  padding: 8px 20px;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  margin-bottom: 20px;
+}
+
+.about-page-banner h1 {
+  font-size: 52px;
+  line-height: 1.25;
+
+  margin-bottom: 25px;
+}
+
+.about-page-banner h1 strong {
+  color: #dbeafe;
+}
+
+.about-page-banner p {
+  max-width: 750px;
+  margin: auto;
+
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* ==========================
+   INTRODUCTION
+========================== */
+
+.about-intro-page {
+  width: 92%;
+  margin: 80px auto;
+}
+
+.about-intro-content {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+
+  background: white;
+
+  padding: 60px;
+
+  border-radius: 25px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.about-intro-text {
+  flex: 1;
+}
+
+.about-intro-text h2 {
+  color: #1e40af;
+
+  font-size: 42px;
+
+  line-height: 1.3;
+
+  margin-bottom: 25px;
+}
+
+.about-intro-text p {
+  color: #6b7280;
+
+  line-height: 1.9;
+
+  margin-bottom: 18px;
+
+  font-size: 16px;
+}
+
+.about-intro-icon {
+  width: 260px;
+  height: 260px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+.about-intro-icon i {
+  font-size: 100px;
+
+  color: white;
+}
+
+/* ==========================
+   WHO WE ARE
+========================== */
+
+.who-we-are {
+  width: 92%;
+  margin: 80px auto;
+}
+
+.who-content {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+.who-card {
+  background: white;
+
+  padding: 40px 30px;
+
+  text-align: center;
+
+  border-radius: 22px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.who-card:hover {
+  transform: translateY(-8px);
+}
+
+.who-card i {
+  font-size: 45px;
+
+  color: #2563eb;
+
+  margin-bottom: 20px;
+}
+
+.who-card h3 {
+  color: #1e40af;
+
+  margin-bottom: 15px;
+
+  font-size: 22px;
+}
+
+.who-card p {
+  color: #6b7280;
+
+  line-height: 1.8;
+}
+
+.about-wide-text {
+  max-width: 1000px;
+
+  margin: 50px auto 0;
+
+  text-align: center;
+}
+
+.about-wide-text p {
+  color: #6b7280;
+
+  font-size: 16px;
+
+  line-height: 1.9;
+
+  margin-bottom: 20px;
+}
+
+/* ==========================
+   HOW WE WORK
+========================== */
+
+.how-we-work {
+  width: 92%;
+  margin: 80px auto;
+}
+
+.work-grid {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 20px;
+}
+
+.work-card {
+  position: relative;
+
+  background: white;
+
+  padding: 35px 25px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.work-card:hover {
+  transform: translateY(-8px);
+}
+
+.work-number {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 25px;
+
+  border-radius: 50%;
+
+  background: rgba(37, 99, 235, 0.1);
+
+  color: #2563eb;
+
+  font-weight: 700;
+}
+
+.work-card h3 {
+  color: #1e40af;
+
+  font-size: 18px;
+
+  line-height: 1.4;
+
+  margin-bottom: 15px;
+}
+
+.work-card p {
+  color: #6b7280;
+
+  font-size: 14px;
+
+  line-height: 1.8;
+}
+
+/* ==========================
+   WHAT MATTERS TO US
+========================== */
+
+.what-matters {
+  width: 92%;
+  margin: 80px auto;
+}
+
+.values-grid {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 20px;
+}
+
+.value-card {
+  background: white;
+
+  padding: 35px 25px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+}
+
+.value-card i {
+  font-size: 38px;
+
+  color: #2563eb;
+
+  margin-bottom: 18px;
+}
+
+.value-card h3 {
+  color: #1e40af;
+
+  margin-bottom: 12px;
+
+  font-size: 20px;
+}
+
+.value-card p {
+  color: #6b7280;
+
+  font-size: 14px;
+
+  line-height: 1.8;
+}
+
+/* ==========================
+   SERVICE PHILOSOPHY
+========================== */
+
+.service-philosophy {
+  width: 92%;
+  margin: 80px auto;
+
+  background: rgba(37, 99, 235, 0.08);
+
+  border-radius: 25px;
+
+  padding: 70px 60px;
+
+  text-align: center;
+}
+
+.philosophy-content {
+  max-width: 950px;
+
+  margin: auto;
+}
+
+.philosophy-content h2 {
+  color: #1e40af;
+
+  font-size: 42px;
+
+  line-height: 1.3;
+
+  margin-bottom: 25px;
+}
+
+.philosophy-content p {
+  color: #4b5563;
+
+  line-height: 1.9;
+
+  font-size: 16px;
+
+  margin-bottom: 20px;
+}
+
+/* ==========================
+   WHY PARTNER WITH US
+========================== */
+
+.partner-section {
+  width: 92%;
+  margin: 80px auto;
+}
+
+.partner-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+.partner-grid div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  background: white;
+
+  padding: 20px 25px;
+
+  border-radius: 15px;
+
+  color: #374151;
+
+  font-weight: 500;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+
+  transition: 0.3s;
+}
+
+.partner-grid div:hover {
+  transform: translateX(5px);
+}
+
+.partner-grid i {
+  color: #2563eb;
+
+  font-size: 18px;
+}
+
+/* ==========================
+   CLIENT COMMITMENT
+========================== */
+
+.about-commitment {
+  width: 92%;
+  margin: 80px auto;
+
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+
+  color: white;
+
+  border-radius: 25px;
+
+  padding: 70px 50px;
+
+  text-align: center;
+}
+
+.commitment-content {
+  max-width: 900px;
+
+  margin: auto;
+}
+
+.commitment-content > i {
+  font-size: 60px;
+
+  margin-bottom: 20px;
+}
+
+.commitment-content h2 {
+  font-size: 42px;
+
+  margin-bottom: 20px;
+}
+
+.commitment-content h3 {
+  font-size: 24px;
+
+  margin: 25px 0;
+}
+
+.commitment-content p {
+  font-size: 16px;
+
+  line-height: 1.9;
+
+  margin-bottom: 18px;
+}
+
+.commitment-content .btn-primary {
+  display: inline-block;
+
+  margin-top: 20px;
+
+  background: white;
+
+  color: #2563eb;
+}
+
+.commitment-content .btn-primary:hover {
+  background: #dbeafe;
+}
+
 /* ==========================
    MOBILE
 ========================== */
@@ -2016,6 +2509,121 @@ BLOG DETAIL SPACING BEFORE FOOTER
   }
 
   .blog-content p {
+    font-size: 14px;
+  }
+}
+
+/* ==========================================================
+   ABOUT US PAGE RESPONSIVE
+========================================================== */
+
+@media (max-width: 1200px) {
+  .work-grid,
+  .values-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .about-page-banner {
+    padding: 60px 35px;
+  }
+
+  .about-page-banner h1 {
+    font-size: 42px;
+  }
+
+  .about-intro-content {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 45px;
+  }
+
+  .who-content {
+    grid-template-columns: 1fr;
+  }
+
+  .work-grid,
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-philosophy {
+    padding: 60px 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-page-banner {
+    padding: 50px 25px;
+  }
+
+  .about-page-banner h1 {
+    font-size: 32px;
+  }
+
+  .about-page-banner p {
+    font-size: 15px;
+  }
+
+  .about-intro-page,
+  .who-we-are,
+  .how-we-work,
+  .what-matters,
+  .service-philosophy,
+  .partner-section,
+  .about-commitment {
+    margin: 60px auto;
+  }
+
+  .about-intro-content {
+    padding: 30px 20px;
+  }
+
+  .about-intro-text h2,
+  .philosophy-content h2,
+  .commitment-content h2 {
+    font-size: 28px;
+  }
+
+  .about-intro-icon {
+    width: 180px;
+    height: 180px;
+  }
+
+  .about-intro-icon i {
+    font-size: 70px;
+  }
+
+  .work-grid,
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-philosophy {
+    padding: 50px 25px;
+  }
+
+  .about-commitment {
+    padding: 55px 25px;
+  }
+
+  .commitment-content > i {
+    font-size: 45px;
+  }
+
+  .commitment-content h3 {
+    font-size: 21px;
+  }
+
+  .partner-grid div {
+    padding: 18px;
     font-size: 14px;
   }
 }
